@@ -5,7 +5,7 @@ class Point:
     # Конструктор на класа
     def __init__(self, x = 0, y = 0, *args, **kwargs):
         print('--- object ctr. ---')
-        #данни на класа
+        # данни на обекта
         self.__x = x
         self.__y = y
         Point.label = 'S'
@@ -30,3 +30,6 @@ if __name__ == '__main__':
     p1 = Point(5,6)
 
     print(f'point p1:{p1}')
+
+    txt = str(p1)
+    print(p1)
