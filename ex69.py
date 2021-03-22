@@ -1,8 +1,3 @@
-
-class A:
-    pass
-
-
 # 1. 
 # import draw.point as drw
 

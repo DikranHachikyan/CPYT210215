@@ -8,10 +8,10 @@ class Point:
 
     # Конструктор на класа
     def __init__(self, x = 0, y = 0, *args, **kwargs):
-        print('--- object ctr. ---')
+        print('--- Point Ctor. ---')
         # данни на обекта
-        self.__x = x
-        self.__y = y
+        self.x = x
+        self.y = y
         Point.label = 'S'
         Point.count += 1
     
@@ -83,3 +83,5 @@ class Point:
         '''Object Destr.'''
         Point.count -= 1
 
+if __name__ == '__main__':
+    print('test module point')
